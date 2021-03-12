@@ -16,7 +16,7 @@ function App() {
 
     const apiCity = city.trim().toLocaleLowerCase().replace(/\s/g, "+");
     const apiCountry = country.toLocaleLowerCase();
-    const API = `http://api.openweathermap.org/data/2.5/weather?q=${apiCity},${apiCountry}&appid=aea2566734b1fcc1e246c527e450134b&units=metric`;
+    const API = `https://api.openweathermap.org/data/2.5/weather?q=${apiCity},${apiCountry}&appid=aea2566734b1fcc1e246c527e450134b&units=metric`;
 
     await axios({
       url: API,
