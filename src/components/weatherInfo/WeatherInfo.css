@@ -1,0 +1,33 @@
+#weather-info {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#weather-info h1,
+#weather-info h3,
+#weather-info h4 {
+  color: #fefefe;
+  margin-bottom: 1.5rem;
+}
+
+#weather-info h1 i {
+  font-size: 2.5rem;
+}
+
+#weather-info h1 {
+  font-size: 3rem;
+}
+
+#weather-info ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#weather-info li,
+#weather-info p {
+  color: #fefefe;
+}
+
+#error-message {
+  font-size: 2rem;
+}

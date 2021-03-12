@@ -1,0 +1,39 @@
+#weather-form {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+#weather-form form {
+  padding: 0 2rem;
+}
+
+#weather-form select,
+#weather-form input {
+  width: 100%;
+  padding: 0.3rem;
+  margin: 0;
+  font-size: 1.1rem;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+#weather-form select:focus,
+#weather-form input:focus {
+  outline: none;
+}
+
+#weather-form input::placeholder {
+  color: #fff;
+}
+
+#weather-form option {
+  color: #000;
+  font-size: 1rem;
+}
+
+#weather-form button {
+  margin: 0;
+  width: 100%;
+}
